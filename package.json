@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ethjs-provider-http": "^0.1.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "sbjs": "https://github.com/gitviction/sbjs.git"
   },
   "scripts": {
     "start": "react-scripts start",
