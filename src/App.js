@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import GitCoinButton from "./GitCoinButton";
 
@@ -37,7 +36,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        {/* <header className="App-header"> */}
+        <header className="App-header">
           <GitCoinButton
             meta={meta}
             expirydelta={60 * 60 * 24 * 30 * 3}
@@ -47,7 +46,7 @@ class App extends Component {
             }}
           />
           {this.state.txhash && <span>TXhash: {this.state.txhash}</span>}
-        {/* </header> */}
+        </header>
       </div>
     );
   }

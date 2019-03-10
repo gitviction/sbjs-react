@@ -1,6 +1,7 @@
 # StandardBounties for REACT
 
-This component allows you to add a button that creates a StandardBounty
+This component allows you to add a button that publishes a StandardBounty from your React App
+
 
 # Installing
 
@@ -44,5 +45,12 @@ const meta = {
 
 
 ```
+
+## How does it work ?
+
+Hitting the button:
+
+- publishes the metadata on IPFS
+- executes a transaction with the given parameters to the standardbounties contract
 
 Info about the fields of the metadata can be found here : https://github.com/Bounties-Network/StandardBounties/blob/master/docs/gitcoinSchemas.md 
