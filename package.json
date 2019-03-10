@@ -1,13 +1,14 @@
 {
-  "name": "bttest",
-  "version": "0.1.0",
+  "name": "GitCoinButton",
+  "version": "1.0.0",
   "private": true,
+  "main": "./lib/GitCoinButton.js",
   "dependencies": {
     "ethjs-provider-http": "^0.1.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "sbjs": "https://github.com/gitviction/sbjs.git"
+    "sbjs": "https://github.com/gitviction/sbjs-react.git"
   },
   "scripts": {
     "start": "react-scripts start",
